@@ -3,3 +3,4 @@ mock
 nose
 six
 boto3
+sphinx

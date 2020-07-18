@@ -6,8 +6,7 @@ __version__ = None
 with open('abide/__init__.py') as f:
     exec(f.read())
 
-# To install the twilio-python library, open a Terminal shell, then run this
-# file by typing:
+# To install the Abide persistence library, use
 #
 # python setup.py install
 #

@@ -20,21 +20,21 @@ Example usage:
    >>>       )
    >>>    ]
    >>>
-   >>> o = MyObject(name = "useful_object")
+   >>> o = MyObject(name="useful_object")
    >>> print(o)
-   MyObject(name = "useful_object")
+   MyObject(name="useful_object",stl_val=123)
    >>> print(o.str_val)
    "123"
-   >>> o.save()
+   >>> o.save()    # All properties will be sent and saved into DynamoDB
    >>>
    >>> n = MyObject.load(name = "useful_object")
    >>> print(n)
-   MyObject(name = "useful_object")
+   MyObject(name="useful_object")
    >>> n == o
    True
-   >>> n.str_val = "abc"
+   >>> n.str_val="abc"
    >>> print(n)
-   MyObject(name = "useful_object", str_val = "abc")
+   MyObject(name="useful_object", str_val = "abc")
    >>> n == o
    False
    >>> n.update()   # Only changed values (in this case, str_val) will be sent.
