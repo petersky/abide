@@ -1,6 +1,5 @@
 flake8
 mock
 nose
-six
 boto3
 sphinx

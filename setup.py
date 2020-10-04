@@ -22,7 +22,6 @@ setup(
     url = "https://github.com/petersky/abide/",
     keywords = ["abide","python"],
     install_requires = [
-        "six",
         "pytz",
         "PyJWT >= 1.4.2",
     ],
@@ -43,10 +42,11 @@ setup(
         "License :: OSI Approved :: Apache Software License",
         "Operating System :: OS Independent",
         "Programming Language :: Python",
-        "Programming Language :: Python :: 2.7",
         "Programming Language :: Python :: 3.4",
         "Programming Language :: Python :: 3.5",
         "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
         "Topic :: Software Development :: Libraries :: Python Modules",
         ],
     long_description = """\
